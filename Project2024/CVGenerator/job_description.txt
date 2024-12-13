@@ -1,0 +1,60 @@
+Company
+Wood Mackenzie are the global research, analytics, and consultancy business powering the natural resources industry. For 50 years, we have been providing the quality data, analytics, and insights our customers rely on to inspire their decision making.
+Our dedicated oil, gas & LNG, power & renewables, chemicals, metals & mining sector teams are located around the world and deliver a variety of projects based on our assessment and valuation of thousands of individual assets, companies, and economic indicators such as market supply, demand, and price trends.
+We have over 1,900 employees in 30 locations, serving customers in nearly 80 countries. Together, we inspire and innovate the markets we serve – providing invaluable intelligence to help our customers overcome the toughest challenges, and make strategic decisions that will, ultimately, accelerate the world’s transition to a more sustainable future.
+WoodMac.com
+Wood Mackenzie brand video
+
+
+Job Description
+We are growing and so we are looking for Software Engineers.
+Your role will sit within an Agile team developing products deal with a variety of applications and broad set of technologies, datasets and cross industry requirements. You will help drive the development and integration of these products. We will need you to ensure adherence to best practice in building modern software architectures with well-designed APIs.
+
+
+Main Responsibilities
+
+Implementation and delivery ensuring coding, unit testing, system integration, defect resolution, and technical documentation adheres to our standards.
+Work with the team to proactively identify problems with requirements and communicates these issues early to help course correct.
+Assist in troubleshooting and support efforts for existing systems and applications, focused on improving our existing systems and applications.
+Promote shared ownership of code though code reviews, standards, and documentation.
+Qualifications
+
+4-year bachelor’s degree or international equivalent.
+Experience in a combination of the following: Node, React, and Java.
+Knowledge of modern enterprise and cloud architectures (e.g. microservices, serverless, event driven, reactive) and containerization methodologies.
+Familiarity of multiple technology stacks, object-oriented design approaches and enterprise design patterns.
+Experience with developing applications using traditional (SQL, Postgres, etc) databases and AWS for infrastructure
+Knowledge of continuous delivery and approaches to continuous integration.
+Hands on experience with application optimization, scaling, and security would be considered a plus.
+Excellent written and oral communication skills.
+Strong analytical and problem-solving skills.
+Expectations
+
+Excellent problem solving, and analysis skills coupled with great communication skills
+Strong organization and planning skills, with the ability to manage multiple priorities simultaneously
+A strong attention to detail
+Commitment to excellence and meeting high quality standards expected by our clients
+Experience in working in different delivery methodologies and an understanding of their benefits/constraints
+We are a hybrid working company and the successful applicant will be expected to be physically present in the office at least 2 days per week to foster and contribute to a collaborative environment, but this may be subject to change in the future.
+Due to the global nature of the team, a degree of flexible working will be required to accommodate different time zones.
+Leadership
+
+Contribute to a culture of product development where solving problems for our customers is the highest priority.
+Communicate effectively across functions as required.
+Collaboration
+
+Work in collaboration with team members to perform scoping, estimation, and technology feasibility tasks for the intended solution.
+Manage dependencies among engineering activities and constantly monitor, assess, and control the technical execution.
+Address technical queries and elicit, prioritize, and negotiate changes to requirements and defects.
+Contribute to system and data issue identification and resolution within teams across the organization.
+Quality
+
+Promote a culture of code quality and continuous improvement.
+Drive the importance of data accuracy from internal and external sources.
+Wood Mackenzie Values
+
+Inclusive – we succeed together
+Trusting – we choose to trust each other
+Customer committee – we put customers at the heart of our decisions
+Future Focused – we accelerate change
+Curious – we turn knowledge into action

@@ -1,0 +1,47 @@
+Run the Chat Application
+Start Zookeeper:
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Start Kafka:
+bin/kafka-server-start.sh config/server.properties
+
+Create the Topic for the chat application:
+bin/kafka-topics.sh --create --topic chat-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+
+Run the Producer (Chat Client): Open a new terminal, go to your project folder, and run:
+mvn exec:java -Dexec.mainClass=com.example.ChatProducer ( or run from intelij)
+
+Run the Consumer (Chat Listener): Open another terminal, go to your project folder, and run:
+mvn exec:java -Dexec.mainClass=com.example.ChatConsumer ( or run from intelij)
+
+
+Run the following command to consume messages from a topic (e.g., chat-topic):
+./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic chat-topic --from-beginning
+--from-beginning: This option tells Kafka to show all the messages in the topic from the start.
+After running this, you will see all the messages that have been produced to the topic, including ones you’ve already consumed using your Java app.
+
+
+sending from consumer to producer, will not give any error as this is just terminal
+
+to See the list of topics
+./bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+to delete a topic from kafka server:
+./bin/kafka-topics.sh --delete --topic your-topic-name --bootstrap-server localhost:9092
+Make sure your Kafka broker has topic deletion enabled. If it’s not enabled, you can set this in the server.properties file by adding:
+delete.topic.enable=true
+
+always restart the kafka broker once making any changes
+
+
+ How to Decide the Number of Partitions for Your App?
+ A General Rule of Thumb:
+ If you’re expecting high throughput, start with a few more partitions (like 3–6) and test. If you’re doing a small-scale application, starting with 2–4 partitions is usually sufficient.
+ There’s no perfect formula. It depends on your application's load and the number of consumers
+
+
+Key Points to Remember:
+Offsets are per partition: Each partition maintains its own offset for the consumer group.
+Consumer Groups: Each consumer group tracks offsets separately, allowing multiple groups to read from the same topic without affecting each other.
+Reprocessing: If a consumer fails before committing an offset, it will re-read the uncommitted messages upon restart.
+Duplicate Messages: Manual management can help avoid duplicates by ensuring offsets are only committed after successful processing.
