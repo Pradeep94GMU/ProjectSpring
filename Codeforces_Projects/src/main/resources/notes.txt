@@ -1,0 +1,33 @@
+to read something direct as input
+
+int w = scanner.nextInt();
+
+
+
+
+This should be base
+
+
+public class Problem {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+
+
+
+
+    }
+}
+
+this is for testcase and next lines
+
+package codeforces;
+
+import java.util.Scanner;
+
+public class WayTooLongWords {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+    }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24bbca20-7f9f-4670-9e4e-8cc8747e48d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Codeforces_Projects/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Codeforces_Projects/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KafkaWithSpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaWithSpring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/java/PaymentConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/java/PaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/java/PaymentProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/java/TransactionsP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/java/TransactionsPRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/java/com/pradeep/Reliable/Payment/Processing/System/ReliablePaymentProcessingSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reliable-Payment-Processing-System/src/test/java/com/pradeep/Reliable/Payment/Processing/System/ReliablePaymentProcessingSystemApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2qTCfxQpwcJtiaWtYixtd16swqb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24bbca20-7f9f-4670-9e4e-8cc8747e48d9" name="Changes" comment="" />
+      <created>1734677284521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734677284521</updated>
+    </task>
+    <servers />
+  </component>
+</project>
