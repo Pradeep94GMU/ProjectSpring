@@ -3,6 +3,10 @@ package com.pradeep.CrudOperationBase.service;
 import com.pradeep.CrudOperationBase.model.User;
 import com.pradeep.CrudOperationBase.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,6 +33,11 @@ public class UserService {
         return userRepository.saveAll(users);
     }
 
+    //search
+    public List<User> searchUsers(String keyword) {
+        return userRepository.findByNameContainingOrEmailContainingOrPhoneContaining(keyword, keyword, keyword);
+    }
+
     public User updateUser(Long id, User userDetails) {
         User user = getUserById(id);
         user.setName(userDetails.getName());
@@ -39,6 +48,12 @@ public class UserService {
 
     public void deleteUser(Long id) {
         userRepository.deleteById(id);
+    }
+
+    public Page<User> getAllUsersPaged(int page, int size, String sortBy) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sortBy));
+
+        return userRepository.findAll(pageable);
     }
 }
 
